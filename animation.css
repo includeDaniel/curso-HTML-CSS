@@ -1,0 +1,22 @@
+@keyframes circulo {
+    0% {background-color:red; left:0;top:0;}
+    25% {background-color:yellow; left:200;top:0;}
+    50% {background-color: blue;left:200;top:200;}
+    75% {background-color:green;left:0;top:200;}
+    100% {background-color: red;left:0;top:0;}
+
+}
+body{
+    margin:0;
+}
+.circulo {
+    width:200px;
+    height:200px;
+    background-color:green;
+    border-radius:100px;
+    position:absolute;
+    animation-name:circulo;
+    animation-duration:4s;
+    animation-iteration-count: 3;
+    box-shadow:10px 10px 40px black
+}

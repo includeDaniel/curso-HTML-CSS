@@ -1,0 +1,111 @@
+* {
+    font-family:Arial, Helvetica, sans-serif
+}
+body {
+    margin:0;
+    padding:0;
+
+}
+.topo{
+    width:100%;
+    height: 50px;
+    background-color:#353535;
+}
+.topoint{
+    width:100%;
+    margin:auto;
+    color:white
+}
+.logomarca{
+    float:left;
+    font-size:24px;
+    line-height:50px;
+}
+.menu {
+    float:right;
+
+}
+.menu ul, li{
+    margin:0;
+    padding:0;
+    list-style:none;
+
+}
+.menu li{
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+    line-height:50px;
+    Font-size:14px;
+}
+.menu li:hover {
+    background-color:#3480c1;
+
+}
+.banner {
+    width:100%;
+    height:300px;
+    background-color:#3480c1;
+}
+.leftbanner{
+    float:left;
+    margin-left:100px;
+    line-height:50px;
+
+}
+.rightbanner{
+    float:right;    
+}
+.rightbanner img {
+    width: 600px;
+    height: 280px;
+    margin-right:100px;
+
+}
+.frase1{
+    font-size:48px;
+    color:white
+}
+.frase2{
+    color:white;
+    font-size:20px;
+    
+}
+.botao{
+   background-color:#ffc001;
+   width:252px;
+   height:56px;
+   font-size:20px;
+   text-align:center ;
+   line-height:56px;
+   margin-top:20px;
+   cursor:pointer;
+   border-radius:5px; 
+}
+.conteudointerno{
+    width:1000px;
+    margin:auto
+
+}
+.outrosprodutos {
+    width: 100%;
+    height:90px;
+    font-size: 20px;
+    text-align:center;
+    
+    
+
+}
+.fotos img {
+    width: 1000px;
+    height:600px
+    
+}
+.rodape{
+    width:100%;
+    background-color: #3480c1;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white
+}

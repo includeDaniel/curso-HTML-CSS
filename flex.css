@@ -1,0 +1,16 @@
+.teste{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color: gray;
+    height:700px;
+    
+}
+.teste div {
+    width:100px;
+    height:100px;
+    background-color:red;
+    margin:10px;
+    padding:10px;
+}

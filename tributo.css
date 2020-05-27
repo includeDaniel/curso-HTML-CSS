@@ -1,0 +1,94 @@
+*{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+body{
+    margin:0;
+}
+.topo{
+    height:150px;
+    background-color:#3E3E3E;
+    border:5px solid;
+    border-color:black;
+}
+.topointerno{
+    display:flex;
+    color:white;
+    justify-content: center;
+    height:80px;
+    padding-top:25px;
+    font-size:75px;
+    
+}
+.meiotopo{
+    display:flex;
+    font-size:20px;
+    justify-content: center;
+    background-color:gray;
+    color:white;
+    border:5px solid;
+    border-color:black;
+
+}
+.meio{
+    display:flex;
+    background-color:black;
+    justify-content: center;
+    height: 500px;
+    border:5px solid;
+    border-color:black;
+}
+.idade{
+    display:flex;
+    font-size:20px;
+    justify-content: center;
+    background-color:#3E3E3E;
+    color:white;
+    border:5px solid;
+    border-color:black;
+}
+.abaixo{
+    height: 500px;
+    width: 100%;
+}
+.abaixoesquerda{
+    display:flex;
+    width:50%;
+    background-color:#3E3E3E;
+    height:500px;
+    position:absolute;
+    border:5px solid;
+    border-color:black;
+    color:white
+}
+.abaixodireita{
+    display:flex;
+    background-color:#3E3E3E;
+    color:white;
+    float:right;
+    height:500px;
+    width:50%;
+    border:5px solid;
+    border-color:black;
+}
+.imagem{
+    width:758px;
+}
+.footer{
+    background-color:#3E3E3E;
+    height:150px;
+}
+.footerint{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    font-size:20px;
+    height:150px;
+    border:5px solid;
+    border-color:black;
+    background-color: #3E3E3E;
+}
+.link{
+    text-decoration:none;
+    color:white;
+}
